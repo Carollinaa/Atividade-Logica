@@ -16,7 +16,7 @@ if (aMedia === 0) {
     }
     let media = 0
     media = soma / n.length
-    console.log("A média é = " + media)
+    console.log("A média é = " + media.toFixed(2))
 } else {
     console.log("Para acessar a média é necessário Digitar o número 0")
 }
